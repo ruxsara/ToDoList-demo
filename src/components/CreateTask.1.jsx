@@ -2,7 +2,6 @@ import { Button, TextField } from "@mui/material";
 import React from "react";
 import { useState } from "react";
 
-
 export default function CreateTask({ onCreate }) {
   const [title, setTitle] = useState("");
   const [descr, setDescr] = useState("");
@@ -29,28 +28,38 @@ export default function CreateTask({ onCreate }) {
   };
 
   return (
-
     <form>
-      <label>Title</label>
-      <TextField value={title} id="outlined-basic" label="Title" variant="outlined" onChange={handleTitle} />
+      <TextField
+        value={title}
+        id="outlined-basic"
+        label="Title"
+        variant="outlined"
+        onChange={handleTitle}
+      />
 
-      <label>Description</label>
       <textarea
         rows={5}
         className="input"
         value={descr}
-        onChange={handleDescr} />
+        onChange={handleDescr}
+      />
 
       <TextField
         id="outlined-multiline-static"
         label="Multiline"
         multiline
         rows={4}
-        defaultValue="Default Value" />
+        defaultValue="Default Value"
+      />
 
-      <Button variant="contained" size="large" color="success" onClick={handleSubmit}>Create</Button>
-
+      <Button
+        variant="contained"
+        size="large"
+        color="success"
+        onClick={handleSubmit}
+      >
+        Create
+      </Button>
     </form>
-
   );
 }
