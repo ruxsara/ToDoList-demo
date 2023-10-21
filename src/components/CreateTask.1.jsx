@@ -28,7 +28,7 @@ export default function CreateTask({ onCreate }) {
   };
 
   return (
-    <form>
+    <form className="Form">
       <TextField
         value={title}
         id="outlined-basic"
