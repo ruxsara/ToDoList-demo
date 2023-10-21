@@ -1,0 +1,6 @@
+justify-content : yuxaridan asagiya olan yeri ortaliyir
+
+align-items _ sagdan sola ortaliyir
+
+idea + sade bir sayt yaratmaq hovere gelen kimi formun bir kenarindan o biri kenarina uzay teyyaresi  kecsin amma form da qaranliq ulduzlar olsun
+ya da birinci baxanda mesum kloun hover edende ya da submitde qorxulu kloun bir nov qorxulu kino sayti 
